@@ -21,7 +21,7 @@
 			if($numberOfRemainingTiers > 0){
 				foreach ($getPrices as $key => $value) {
 					//commas need to match header field list. 
-					//this produces a line, indented under the product.
+					//this produces a line, indented under the product
 					echo ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,all,all,'.$key.'.0000,'.$value . ',,,,,,,,';
 				} //end each extra tier
 			} //if if extra tiers ?>
